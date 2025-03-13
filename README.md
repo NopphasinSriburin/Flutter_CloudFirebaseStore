@@ -3,6 +3,11 @@
 ระบบจัดการนักศึกษาโดยใช้ **Flutter Web** และ **Firebase Firestore**  
 คุณสามารถ **เพิ่ม, แก้ไข, และลบนักศึกษา** ได้แบบเรียลไทม์ 🚀
 
+## ตัวอย่าง
+![image](https://github.com/user-attachments/assets/1fc14f33-6023-42d8-9618-20526fd11b62)
+![image](https://github.com/user-attachments/assets/c267f3b1-92d8-4f02-9cbf-bb7f155bcbe6)
+
+
 ---
 
 ## 📌 Features
@@ -64,10 +69,11 @@ Cloud Firestore Database
 ## ✅ วิธีแก้:
 
 ## ตรวจสอบว่า firebase_options.dart ถูกต้องหรือไม่
--- flutter clean
--- flutter pub get
+  flutter clean
+  flutter pub get
 
 ❌ ปัญหา: Firebase SDK เวอร์ชันเก่า
 ✅ อัปเดต pubspec.yaml เป็นเวอร์ชันล่าสุด 
--- flutter pub upgrade
--- flutter pub get
+
+  flutter pub upgrade
+  flutter pub get
