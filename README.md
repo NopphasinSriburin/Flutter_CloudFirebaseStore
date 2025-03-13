@@ -36,10 +36,15 @@ flutter --version
 
 ไปที่ Firebase Console
   คลิก "Create Project" → ตั้งชื่อโปรเจค → กด Continue
+  
   ปิด Google Analytics (ถ้าไม่ต้องการ) → กด Create Project
+  
   ไปที่ Firestore Database → กด Create Database → เลือก Start in test mode
+  
   ไปที่ Project Settings → เลือก "Your Apps" → กดปุ่ม "Add App"
+  
   เลือก Flutter (Web) และทำตามขั้นตอน
+  
   ดาวน์โหลดไฟล์ firebase_options.dart และวางไว้ในโฟลเดอร์ lib/
 
 ## รันแอป
@@ -70,10 +75,12 @@ Cloud Firestore Database
 
 ## ตรวจสอบว่า firebase_options.dart ถูกต้องหรือไม่
   flutter clean
+  
   flutter pub get
 
 ❌ ปัญหา: Firebase SDK เวอร์ชันเก่า
 ✅ อัปเดต pubspec.yaml เป็นเวอร์ชันล่าสุด 
 
   flutter pub upgrade
+  
   flutter pub get
